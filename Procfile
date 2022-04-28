@@ -1,0 +1,1 @@
+web: java -Dspring.profiles.active_prod -Dserver.port=$PORT -jar build/libs/*.jar
